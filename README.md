@@ -1,1 +1,1 @@
-# Chrome_SNS_board
+# Chrome の拡張機能を自作
