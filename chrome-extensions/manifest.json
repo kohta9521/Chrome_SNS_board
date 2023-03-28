@@ -1,10 +1,16 @@
 {
-  "name": "元気が出るスイッチ!!",
-  "mainfest_version": 3,
-  "version": 0.1,
-  "permissions": ["activeTab", "scripting"],
-  "background": {
-    "service_worker": "alert.js"
-  },
-  "action": {}
+	"name": "元気が出るスイッチ",
+	"manifest_version": 3,
+	"version": "0.1",
+	"permissions": ["activeTab","scripting"],
+	"background": {
+		"service_worker": "alert.js"
+	},
+	"action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png"
+    }
+  }
 }
